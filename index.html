@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col columna1">
+          <H2>MEMOTEST</H2>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-success">Empezar juego</button>
+        </div>
+        <div class="col" id="record">
+          <p>Tiempo de Juego:<b id="number"></b></p>
+        </div>
+      </div>      
+    </div>
+  </header>
+  <main>
+    <div class="container tablero">
+      <div class="row fila">
+        <div class="col">
+          <div class="carta tapada">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+      </div>
+      <div class="row fila">
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+      </div>
+      <div class="row fila">
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="carta tapada">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="empezar-nuevo">
+      <p class="oculta" id="tiempo2">Tiempo total:<b id="tiempo"></b>segundos</p>
+      <button type="button" class="btn btn-success oculta" id="empezar-nuevo">Empezar de nuevo</button>
+    </div>
+  </main>
+  <script src='memo.js'></script>
+</body>
+</html>

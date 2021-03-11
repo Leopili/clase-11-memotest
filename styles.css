@@ -1,0 +1,100 @@
+body{
+    background:RGB(255, 230, 230) !important;
+}
+
+
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+
+header .columna1{
+    text-align: right;
+}
+
+header h2{
+    font-size: 58px;
+    font-weight: 600;
+    color: darkred;
+    font-family: sans-serif;
+}
+
+header button{
+    margin-top: 15px;
+}
+
+#record{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tablero{
+    margin-top: 20px;
+    
+}
+
+.fila, .col{
+    margin: 15px;
+}
+
+.carta{
+    height: 130px;
+    width: 150px;
+    background-size: cover;
+    border: solid 1px #828282;
+}
+
+.tapada{
+    background-image: url("pregunta.jpg") !important;
+    transition: background-image,500ms;
+}
+
+.clase-1{
+    background-image: url("manzanas.jpeg");
+    transition: background-image,500ms;
+    background-size: cover;
+}
+
+.clase-2{
+    background-image: url("bananas.jpg");
+    transition: background-image,500ms;
+    background-size: cover;
+}
+
+.clase-3{
+    background-image: url("peras.jpg");
+    transition: background-image,500ms;
+    background-size: cover;
+}
+
+.clase-4{
+    background-image: url("frutillas.jpg");
+    transition: background-image,500ms;
+    background-size: cover;
+}
+
+.clase-5{
+    background-image: url("anana.jpg");
+    transition: background-image,500ms;
+    background-size: cover;
+}
+
+.clase-6{
+    background-image: url("naranjas.jpg");
+    transition: background-image,500ms;
+    background-size: cover;
+}
+
+.oculta{
+    display: none !important;
+}
+
+.empezar-nuevo{
+    display: flex;
+    justify-content: center;
+}
+
+#tiempo2{
+    margin: 20px;
+}
